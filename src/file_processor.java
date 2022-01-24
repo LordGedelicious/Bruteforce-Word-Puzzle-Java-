@@ -67,9 +67,9 @@ public class file_processor {
         for (int i = 0; i < eff_height; i++) {
             for (int j = 0; j < eff_width; j++) {
                 word_matrix_final[i][j] = word_matrix[i][j];
-                System.out.print(word_matrix_final[i][j]);
+                // System.out.print(word_matrix_final[i][j]);
             }
-            System.out.println();
+            // System.out.println();
         }
         return word_matrix_final;
     }
@@ -110,9 +110,12 @@ public class file_processor {
         char[][] word_matrix = read_words_matrix(src_file);
         String[] answers_matrix = read_answers_matrix(src_file);
         int[] length_summary = new int[3];
-        length_summary[0] = word_matrix[0].length;
-        length_summary[1] = word_matrix.length;
+        length_summary[1] = word_matrix[0].length;
+        length_summary[0] = word_matrix.length;
         length_summary[2] = answers_matrix.length;
+        System.out.println("Word Matrix Height : " + length_summary[0]);
+        System.out.println("Word Matrix Width : " + length_summary[1]);
+        System.out.println("Answers Matrix Length : " + length_summary[2]);
         return length_summary;
     }
 }
