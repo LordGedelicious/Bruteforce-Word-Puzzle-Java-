@@ -1,12 +1,10 @@
-package src;
-
 import java.util.*;
 import java.io.*;
 
-public class file_processor {
+public class FileProcessor {
     public static char[][] read_words_matrix(File src_file) throws IOException, FileNotFoundException {
         // Buat dan Modifikasi Matriks (+ Padding untuk Cek Out-of-Bounds)
-        char[][] word_matrix = new char[38][36];
+        char[][] word_matrix = new char[40][40];
         for (int i = 0; i < 38; i++) {
             for (int j = 0; j < 36; j++) {
                 if (i == 0 || i == 37 || j == 0 || j == 35) {
@@ -113,9 +111,6 @@ public class file_processor {
         length_summary[1] = word_matrix[0].length;
         length_summary[0] = word_matrix.length;
         length_summary[2] = answers_matrix.length;
-        System.out.println("Word Matrix Height : " + length_summary[0]);
-        System.out.println("Word Matrix Width : " + length_summary[1]);
-        System.out.println("Answers Matrix Length : " + length_summary[2]);
         return length_summary;
     }
 }
