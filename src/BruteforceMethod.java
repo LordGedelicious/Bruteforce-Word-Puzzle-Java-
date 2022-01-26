@@ -36,7 +36,7 @@ public class BruteforceMethod {
         long end_time = System.nanoTime();
         System.out.println();
         printResults(word_matrix, answer_matrix, len_summary, where_and_how);
-        System.out.println("\nElapsed Processing Time in mikroseconds : " + ((end_time - start_time) / Math.pow(10, 6)) + "\n");
+        System.out.println("\nElapsed Processing Time in microseconds : " + ((end_time - start_time) / Math.pow(10, 6)) + "\n");
         System.out.println("Total comparisons made to find all words : " + total_comparison);
     }
 
@@ -322,7 +322,7 @@ public class BruteforceMethod {
                             starting_height -= 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah north di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking north at : ");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -340,7 +340,7 @@ public class BruteforceMethod {
                             starting_width += 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah northeast di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking northeast at : ");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -357,7 +357,7 @@ public class BruteforceMethod {
                             starting_width += 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah east di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking east at : ");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -375,7 +375,7 @@ public class BruteforceMethod {
                             starting_width += 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah southeast di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking southeast at : ");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -392,7 +392,7 @@ public class BruteforceMethod {
                             starting_height += 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah south di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking south at : ");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -410,7 +410,7 @@ public class BruteforceMethod {
                             starting_width -= 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah southwest di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking southwest at :");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -427,7 +427,7 @@ public class BruteforceMethod {
                             starting_width -= 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah west di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking west at :");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -445,7 +445,7 @@ public class BruteforceMethod {
                             starting_width -= 1;
                         }
                     }
-                    System.out.println("Kata " + answer_matrix[i] + " ditemukan arah northwest di :");
+                    System.out.println("Found word " + answer_matrix[i] + " by checking northwest at :");
                     System.out.println();
                     for (int l = 0; l < results_matrix.length; l++) {
                         for (int m = 0; m < results_matrix[0].length; m++) {
@@ -456,7 +456,7 @@ public class BruteforceMethod {
                     System.out.println();
                     break;
                 case 8:
-                    System.out.println("Kata " + answer_matrix[i] + " tidak ditemukan\n");
+                    System.out.println("Word " + answer_matrix[i] + " is not found\n");
             }
         }
     }
