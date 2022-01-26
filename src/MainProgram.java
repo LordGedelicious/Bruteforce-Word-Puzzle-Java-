@@ -11,7 +11,7 @@ public class MainProgram {
             while (file_nonexistant) {
                 System.out.print("Insert your path to the textfile here (please watch the formatting) : ");
                 String filename = readFile.next();
-                File puzzlefile = new File("../testfile/" + filename);
+                File puzzlefile = new File("../test/" + filename);
                 if (puzzlefile.exists()) {
                     // System.out.println("File exists\n");
                     file_nonexistant = false;
