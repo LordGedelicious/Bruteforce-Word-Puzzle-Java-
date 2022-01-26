@@ -5,8 +5,11 @@ Program ini adalah program untuk menemukan semua kata kunci (bila ada) pada sebu
 
 # Requirements untuk Menggunakan Program
 1.  Pastikan Java sudah terinstalasi. Program ini sudah di-debug menggunakan java version 17.
-2.  Pastikan text file yang akan diproses sudah diletakkan di dalam folder /test dan menggunakan format yang sesuai. Contoh format dapat dilihat dari file yang sudah ada di dalam folder /test.
-3.  Pastikan text file disimpan menggunakan extension .txt
+`java 17 2021-09-14 LTS
+Java(TM) SE Runtime Environment (build 17+35-LTS-2724)
+Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing`
+3.  Pastikan text file yang akan diproses sudah diletakkan di dalam folder /test dan menggunakan format yang sesuai. Contoh format dapat dilihat dari file yang sudah ada di dalam folder /test.
+4.  Pastikan text file disimpan menggunakan extension .txt
 
 # Cara Menggunakan Program
 1.  Buka command line / shell di folder /bin
