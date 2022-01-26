@@ -1,7 +1,7 @@
 # Program _Word Puzzle Solver_ dengan _Brute Force Method_
 # Created by Gede Prasidha Bhawarnawa - 13520004 - K01
 
-Program ini adalah program untuk menemukan semua kata kunci (bila ada) pada sebuah matriks huruf. Program ini menerima input sebuah text file dengan format tertentu dan mengeluarkan output pada terminal/shell. Program ini dibuat menggunakan bahasa Java dan Visual Studio Code IDE.
+Program ini adalah program untuk menemukan semua kata kunci (bila ada) pada sebuah matriks huruf. Program ini menerima input sebuah text file dengan format tertentu dan mengeluarkan output pada terminal/shell. Program ini dibuat menggunakan bahasa Java dan Visual Studio Code IDE. Program ini dibuat untuk memenuhi tugas kecil #1 mata kuliah IF2211 Strategi Algoritma.
 
 # Requirements untuk Menggunakan Program
 1.  Pastikan Java sudah terinstalasi. Program ini sudah di-debug menggunakan java version 17.
